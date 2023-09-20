@@ -1,0 +1,44 @@
+.Header {
+  width: 100vw;
+  background-color: white;
+  align-items: center;
+  border-bottom: 2px solid #f2f0f3;
+  position: fixed;
+  z-index: 1;
+}
+.Header ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  align-content: center;
+  height: 100%;
+}
+.Header li {
+  display: inline-block;
+  margin-right: 20px;
+  cursor: pointer;
+}
+ul a {
+  position: relative;
+  color: #9D9D9D;
+  text-decoration: none;
+  margin: 0 10px;
+}
+.Header li:hover,
+.Header li:active{
+  color: #185ADB;
+  font-family: Georgia, Times, 'Times New Roman', serif;
+}
+.Sign {
+  position: absolute;
+  right: 50px;
+  top: 4px;
+  cursor: pointer;
+  color: #9D9D9D;
+}
+.Sign:hover,
+.Sign:active {
+  color: #1C7947;
+  font-family: Georgia, Times, 'Times New Roman', serif;
+}

@@ -1,0 +1,36 @@
+.ModelInfo {
+  padding: 16px;
+  text-align: center;
+  border: 1px solid #eee;
+  box-shadow: 0 2px 3px #ccc;
+  box-sizing: border-box;
+}
+.Model {
+  max-width: 45%;
+  padding-left: 30px;
+  padding-top: 20px;
+  display: block;
+
+}
+.ModelInfo h3 {
+  color: #F8A488;;
+}
+.ModelInfo a {
+  cursor: pointer;
+  text-decoration: none;
+  color: #9D9D9D;
+}
+.ModelInfo a:hover {
+  color: #5AA897;
+}
+.ModelInfo small {
+  position: absolute;
+  padding-left: 10px;
+  margin-top: -18px;
+  color: #9D9D9D;
+}
+@media screen and (max-width: 700px) {
+  .Model {
+      max-width: 25%;
+  }
+}
